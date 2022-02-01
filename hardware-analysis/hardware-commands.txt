@@ -1,0 +1,20 @@
+#neofetch
+
+#Free ram amount:
+free -h
+
+#List pci buses and devices:
+lspci
+
+#Print info about cpu:
+lscpu
+
+#Print info about usb:
+lsusb
+
+#Print info about devices:
+lsdev
+
+#Print info about all hardware:
+lshw
+

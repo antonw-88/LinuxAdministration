@@ -1,0 +1,8 @@
+systemd-analyze plot > ~/systemd_startup.svg 
+
+systemd-analyze critical-chain
+
+systemd-analyze blame
+
+sudo systemctl disable NetworkManager-wait-online.service
+

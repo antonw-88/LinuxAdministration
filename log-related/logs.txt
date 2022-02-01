@@ -1,0 +1,7 @@
+
+
+#Continually print new entries to log:
+sudo tail -f /var/log/syslog
+
+#logs related to process-id:
+pslog pid

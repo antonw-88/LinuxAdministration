@@ -1,0 +1,10 @@
+#Commands useful for editing files:
+
+Wc
+Sort
+Uniq
+Tee
+Cut
+Sed
+Tr
+Paste

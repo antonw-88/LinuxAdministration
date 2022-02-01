@@ -1,0 +1,13 @@
+ip link show
+tcpdump
+ping 
+telnet ip/domain port
+netstat -lt
+ifconfig
+traceroute
+route
+arp
+dig domain/ip
+nslookup
+nmap
+

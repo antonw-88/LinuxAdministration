@@ -1,0 +1,6 @@
+https://wiki.archlinux.org/title/Xmodmap
+
+xmodmap -e "keycode 112 = Control_L Up"
+
+keycode 112 = Prior NoSymbol Prior
+

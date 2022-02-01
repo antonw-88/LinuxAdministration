@@ -1,0 +1,96 @@
+# Overview of CVEs (common Vulnerabilities and Exposures):
+https://www.cvedetails.com
+
+#Videos:
+Linux  hardening 1&2&3 - https://www.youtube.com/watch?v=GXLdzmGmSlY&t=120s
+
+#Books:
+
+# Patches
+-Linux Security Modules
+
+------------------------------------------------------------------------------
+# Kernel
+-Hooksafe - making a shadow copy of all the kernel hooks at one central place and adding an indirection layer on it to regulate attempts to access the hooks.
+- Kernel Parameters Command: sysctl -a
+- Lynis 
+
+------------------------------------------------------------------------------
+# Dumpcore
+-coredumpctl
+
+------------------------------------------------------------------------------
+#User/Application control
+- No default passwords
+- PAM active
+
+------------------------------------------------------------------------------
+#SSH
+-only allow SSH to checkpoint, then blocked from internal network(jump server?)
+
+------------------------------------------------------------------------------
+# Internet
+-Disable: NetBios
+-Only allow VPN out
+-Control validity of checksums
+-Turn off the router's 'remote web management'
+------------------------------------------------------------------------------
+# DDoS
+-enable: syn-cookies
+
+------------------------------------------------------------------------------
+# ICMP Redirection
+-deactivate, in kernel: accept-redirects 
+
+------------------------------------------------------------------------------
+# Services/Processes - (Set resource limits for services - can be done via PAM)
+-avahi
+-bluetooth
+-geoclue.service
+-Cron limits
+
+------------------------------------------------------------------------------
+#Packages:
+dkpg --verify
+
+------------------------------------------------------------------------------
+# Hardware configuration:
+-No automount.
+-RISC-V
+-Resource limits
+
+------------------------------------------------------------------------------
+# Vim:
+Add these two lines to your main .vimrc file:
+set exrc
+set secure
+
+------------------------------------------------------------------------------
+# Programs:
+-Tripwire/AIDE
+-Snort
+-Wireshark
+-Cacti - server-resource analysis
+-Remus - Access-control analysis
+-Fail2Ban - Passwordcracking defence
+-logcheck - Realtime log-alerts (Read the ReadMe)
+-checksecurity - 
+-rkhunter - Rootkit
+-chkrootkit - Rootkit
+-Apparmor - MandatoryAccessControl
+-Photorec - restoration-tool
+-Lynis - Audit-tool
+-Debsums - Check for changes
+-Firewalld - 
+-SSHGuard - 
+-OBFSproxy -
+-oscap - automatic hardening tool, careful with the stricter policies
+
+------------------------------------------------------------------------------
+#Hardware:
+-Mikrotik with RouterOS - RB750Gr3
+
+------------------------------------------------------------------------------
+Resources:
+https://www.linas.org/linux/secure.html
+http://www.puschitz.com/SecuringLinux.shtml

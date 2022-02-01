@@ -1,0 +1,8 @@
+#List with RHEL specific commands
+
+#List all enabled services and info:
+chkconfig --list
+
+#Logs
+security instead of authlog
+messages instead of syslog

@@ -1,0 +1,5 @@
+# CVE scan
+debsecan
+apt-get install $(debsecan --suite sid --only-fixed --format packages)
+
+https://www.enyo.de/fw/software/debsecan/

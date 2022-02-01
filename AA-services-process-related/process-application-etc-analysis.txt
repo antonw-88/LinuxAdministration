@@ -1,0 +1,32 @@
+#Variant of top with better overview etc
+htop
+
+#Gather process data over longer period of time and produce report: https://www.youtube.com/watch?v=RhyXrTYFsd8
+sysstat
+/etc/default/sysstat -> set to true
+sar -A | more
+vim /etc/security/limits.conf -> *  hard core 0
+vim /etc/sysctl.conf -> fs.suid_dumpable = 0
+vim /etc/cron.d/sysstat -> set logging frequency etc
+
+#ksar -> graphic representation of sar data: https://www.howtoforge.com/install-and-configure-sar-and-ksar-for-daily-monitoring-on-linux-and-generate-pdf-reports/
+
+#Isolated analysis of process according to for example most cpu usage:
+dstat
+
+#List all files a process has open:
+Lsof -p process_id
+
+#Trace all shared(dynamically linked) libraries that a userspace application uses
+ltrace /bin/gnome-system-monitor
+
+# See all available services:
+ps aux
+pstree
+
+#(replace 'top' with 'htop')
+# 'top'-commands:
+P - processor
+M - memory
+T - time since started
+N - PID

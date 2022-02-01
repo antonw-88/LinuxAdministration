@@ -1,0 +1,8 @@
+#Debug kernel to/from userland  
+strace sudo
+
+#List loaded kernel modules - reads from /proc/modules
+lsmod
+
+#Print message buffer of kernel(e.g. driver debug):
+dmesg

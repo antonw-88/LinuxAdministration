@@ -1,0 +1,33 @@
+#This is not a script, but more of a general guide on how to enable TripWire-analysis.
+
+#Initiate Tripwire to create the DB:
+sudo tripwire --init
+
+#Save the missing-directories to file, and configure the tripwire-policy so that these files are commented out. Then re-initiate tripwire:
+sudo sh -c "tripwire --check | grep Filename > missing-directory.txt"
+sudo vim /etc/tripwire/twpol.txt
+sudo twadmin -m P /etc/tripwire/twpol.txt
+sudo tripwire --init
+
+#Create a check-file for the DB(should have 0 deviations):
+sudo tripwire --check	
+
+#Create a deviation:
+sudo touch /bin/testFile.sh
+
+#Run TripWire again to find the change:
+sudo tripwire --check
+
+# Update the DB: 
+sudo tripwire --update -Z low -r /var/lib/tripwire/report/example12412-124124.twr 
+
+#Remove the testfile(This will trigger a new deviation when running --check):
+sudo rm /bin/testFile.sh
+
+#Sources:
+#https://www.techrepublic.com/article/how-to-install-and-use-tripwire-to-detect-modified-files-on-ubuntu-server/
+#openstack.com
+
+
+
+https://www.howtoforge.com/tutorial/how-to-monitor-and-detect-modified-files-using-tripwire-on-ubuntu-1604/

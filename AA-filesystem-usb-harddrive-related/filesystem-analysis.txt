@@ -1,0 +1,69 @@
+#Print directory tree of file-system area:
+tree -d /home/example
+
+#list systems block devices:
+lsblk
+
+# dump consists of the recorded state of the working memory of a computer program at a specific time, generally when the program has crashed 
+coredumpctl
+
+#Get verbose information about a partition/drive:
+smartctl -a /dev/yourdrive
+
+
+#Mounting:
+ls /mnt
+mount /dev/sdb /mnt
+mount
+fdisk
+
+#print size of directory 
+du -h directory
+
+#Print info about systems hardrive storage:
+df -h (-ah for partitions with no size)
+
+#Create and manipulate partitions:
+fdisk
+
+#Create tarball with debugging information:
+sos report
+
+#Search for file etc:
+updatedb
+locate -i test
+
+#Search without DB:
+find / -name test (use * for wildcard, behind||after word or both)
+
+List Open Files:
+
+lsof | head
+
+#Which processes that are using a file:
+lsof /var/log/test.sh
+
+#Which files a process is using:
+lsof -p 132
+
+#Which bin/library a process is using:
+lsof -p 132 | grep bin
+lsof -p 132 | grep .so
+lsof -p 132 | grep log
+
+#List which files a user is running:
+lsof -u testUser
+
+#Ports/Protocol open:
+lsof -i :80
+lsof -i tcp
+
+--------------------------------------------
+Working with PDF's:
+
+Adding files to a PDF:
+> a2ps Doxyfile *.c *.h -o Appendix.ps
+> ps2pdf Appendix.ps 
+> rm Appendix.ps
+> pdftk refman.pdf Appendix.pdf CAT OUTPUT NinaUllander_doxygen.pdf
+

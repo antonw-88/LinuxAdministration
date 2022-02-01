@@ -1,0 +1,7 @@
+#List with things to check every bootup
+
+#Check CPU usage average:
+sar -P ALL
+
+#Check RAM usage average:
+sar -rh
