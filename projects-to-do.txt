@@ -1,11 +1,10 @@
 #List of planned projects:
 
-#Ansible running on Vagrant in VirtualBox. Container-app in one of machines.
+#Ansible running on Vagrant in VirtualBox. Container-app in one of machines - X
 
-#Build LFS again and save resulting OS - continue with BLFS 
+#Automate LFS - continue with BLFS 
 
 #Youtube channel with Linux security tools -> BlueTeamLinux (Penguin standing on blue ICE defending against red fire)
 
 #Hackthebox
 
-#BlueTeamsLab.online

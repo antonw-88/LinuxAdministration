@@ -2,3 +2,6 @@
 hostnamectl
 
 uname -a
+
+apropos test
+

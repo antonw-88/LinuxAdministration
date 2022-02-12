@@ -1,0 +1,37 @@
+#g is a handy alias for git. This means you can type things like g clone <whatever> instead of git clone <whatever>. Might only be two keystrokes, but they soon add up.
+#gaa is an alias for git add all. I use this one all the time.
+#gb is an alias for git branch, which will list all of the branches in the current repo and show you which one you’re on.
+#gcb is an alias for git checkout -b, the command that allows you to create a new branch.
+#gcm is an alias for git checkout master. This returns you to the master branch.
+#gdca is an alias for git diff --cached. This allows you to diff any files you’ve staged for commit.
+#gf is an alias for git fetch.
+#gm is an alias for git merge.
+#gp is an alias for git push. To sync a fork of a repo, you could do: gf upstream, gm upstream/master, followed by gp.
+#glog is an alias for git log --oneline --decorate --graph, which will give you a pretty git branch graph.
+
+
+alias	List all aliases
+take / mkcd	Create a new directory and change to it, will create intermediate directories as required.
+zsh_stats	Get a list of the top 20 commands and how many times they have been run.
+Directory
+Alias	Command
+md	mkdir -p
+rd	rmdir
+cd / ~	cd to your home directory
+..	cd ..
+...	cd ../..
+....	cd ../../..
+.....	cd ../../../..
+/	cd /
+d	dirs -v (lists last visited directories)
+cd +n	Switch to directory number n
+-	cd to last visited directory
+1	cd -1
+2	cd -2
+3	cd -3
+4	cd -4
+5	cd -5
+6	cd -6
+7	cd -7
+8	cd -8
+9	cd -9

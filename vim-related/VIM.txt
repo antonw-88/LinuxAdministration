@@ -1,6 +1,0 @@
-ctrl+t = backward search
-ctrl+g = forward search
-
-:%s/find/replacewith/g
-
-
