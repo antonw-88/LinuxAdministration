@@ -1,7 +1,4 @@
-Creating a multiboot-usb:
-Download MultiBootUsb from their homepage – most easy method to get to work for me.
-
-Restoring your USB key to its original state using Linux FDISK – I think best method:
+Restoring your USB key to its original state using Linux FDISK:
 A. First we need to delete the old partitions that remain on the USB key.
     1. Open a terminal and type sudo su
     2. Type fdisk -l and note your USB drive letter.

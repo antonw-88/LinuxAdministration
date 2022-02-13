@@ -10,7 +10,6 @@ coredumpctl
 #Get verbose information about a partition/drive:
 smartctl -a /dev/yourdrive
 
-
 #Mounting:
 ls /mnt
 mount /dev/sdb /mnt
@@ -34,10 +33,9 @@ updatedb
 locate -i test
 
 #Search without DB:
-find / -name test (use * for wildcard, behind||after word or both)
+find / -name test (use * for wildcard behind and/or after word)
 
 List Open Files:
-
 lsof | head
 
 #Which processes that are using a file:

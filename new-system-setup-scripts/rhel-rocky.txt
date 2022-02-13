@@ -11,16 +11,4 @@ wireshark
 lynis
 tlp - power managment
 
-#Package
-debian-goodies - use debget to download .deb files
-
-
-#Add to ui with tweak tool:
-
-
-#Fix other things
-dconf-editor - go to org-gnome-sounds-turn off system events
-
-
-
 

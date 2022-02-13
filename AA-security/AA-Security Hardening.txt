@@ -85,6 +85,8 @@ set secure
 -SSHGuard - 
 -OBFSproxy -
 -oscap - automatic hardening tool, careful with the stricter policies
+-bcwipe - Shred files
+
 
 ------------------------------------------------------------------------------
 #Hardware:

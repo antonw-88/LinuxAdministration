@@ -1,4 +1,0 @@
-#Document with various commands/programs for protecting/destroying files
-
-#Shred files
-bcwipe
