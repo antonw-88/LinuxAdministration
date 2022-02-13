@@ -1,0 +1,12 @@
+#Check OS,Kernel,Architecture system:
+hostnamectl
+
+uname -a
+
+apropos test
+
+# Check all filestorage space available
+df -h
+
+# Check all RAM usage 
+free -h

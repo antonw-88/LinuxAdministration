@@ -1,0 +1,10 @@
+#Ansible running on Vagrant in VirtualBox. Geerlingguy book
+
+#Automate LFS - then continue with BLFS 
+
+#Youtube channel with Linux security tools -> BlueTeamLinux (Penguin standing on blue ICE defending against red fire)
+
+#Hackthebox
+
+#check process when startup new system 
+#general debug steps (logs logs logs)

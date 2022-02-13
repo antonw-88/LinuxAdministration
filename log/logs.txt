@@ -1,7 +1,29 @@
-
-
 #Continually print new entries to log:
 sudo tail -f /var/log/syslog
 
 #logs related to process-id:
 pslog pid
+
+#Journalctl commands:
+journalctl -r
+journalctl -n 50
+journalctl -f
+journalctl -k
+journalctl --list-boots
+journalctl -b -2
+journalctl -u service_name
+journalctl --since=yesterday --until=now
+journalctl --since "2020-07-10"
+journalctl -xe
+journalctl --disk-usage
+journalctl -p 3 -xb (x= additional info, b=since last boot)
+journalctl -p 4..6 -b0
+Priority	Code
+0		emerg
+1		alert
+2		crit
+3		err
+4		warning
+5		notice
+6		info
+7		debug

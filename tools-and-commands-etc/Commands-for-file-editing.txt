@@ -1,10 +1,9 @@
 #Commands useful for editing files:
-
-Wc
-Sort
-Uniq
-Tee
-Cut
-Sed
-Tr
-Paste
+wc
+sort
+uniq
+tee
+cut
+sed
+tr
+paste

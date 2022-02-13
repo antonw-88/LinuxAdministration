@@ -1,7 +1,0 @@
-#Check OS,Kernel,Architecture system:
-hostnamectl
-
-uname -a
-
-apropos test
-

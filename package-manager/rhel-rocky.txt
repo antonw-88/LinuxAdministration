@@ -1,9 +1,8 @@
-# Program info:
-dpkg -s /usr/checkForProgram - find program which owns file.
-dpkg -s program 	- info about program.
-dpkg -L program 	- list files bound to program. 
-
-# Fix broken packages:
-apt-get update --fix-missing
-apt-get install -f 
-
+# DNF
+dnf search package
+dnf list installed
+dnf info package
+dnf repolist all
+dnf repolist enabled
+dnf history
+dnf deplist package

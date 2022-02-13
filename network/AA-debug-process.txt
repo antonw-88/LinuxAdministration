@@ -11,3 +11,36 @@ dig domain/ip
 nslookup
 nmap
 
+
+#Various commands for troubleshooting network
+
+#Show all network interfaces:
+ip link show
+
+#Print ip-address:
+ip addr show
+
+#Show bandwidth usage
+iftop -i interface_name
+
+#Track packets traffic
+tcpdump
+
+
+#
+netstat
+
+#Services connected to network - IPv4
+lsof -i4
+
+#Open ports
+sudo netstat -lntu
+
+#Update DNS
+sudo resolvconf -u
+
+#Take up/down interface
+sudo ifconfig **** down
+
+#SSH-copy:
+scp -i key source user@ipdest:~/Downloads
