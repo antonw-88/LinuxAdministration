@@ -84,7 +84,6 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    1. Hardware analysis.
    2. Kernel analysis.
    3. Process for setting up a new Debian system.
-
 As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.
   
 **Study Materials:**
