@@ -9,15 +9,25 @@ The structure of the repo is based on Red Hat's overview of the contents that th
    5. Multiuser targets.
    6. Tar, Gzip, Bzip2.
    7. Text file modification.
-   8. File and Directory management.
-   9. Hard and Soft links.
-   10. File and Directory permissions.
+   8. File and directory management.
+   9. Hard and soft links.
+   10. File and directory permissions.
    11. System documentation.
 2. Shell Scripting.
-   1. Conditional Execution.
-   2. Looping Constructs.
-   3. Script Inputs.
-   4. Output Control. 
-
+   1. Conditional execution.
+   2. Looping constructs.
+   3. Script inputs.
+   4. Output control. 
+3. Operating Running Systems.
+   1. Standard boot, reboot and shutdown.
+   2. Boot systems into different targets.
+   3. System access by interrupting the boot process.
+   4. Process identification and control.
+   5. Process scheduling.
+   6. Tuning profiles.
+   7. Log files and journals.
+   8. System journal preservation.
+   9. Network service analysis.
+   10. File-transfer between systems. 
 
 [1] https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
