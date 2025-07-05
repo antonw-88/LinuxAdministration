@@ -80,6 +80,10 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    5. Run a service inside a container
    6. Configure a container to start automatically as a systemd service
    7. Attach persistent storage to a container
+11. Additional Resources(my own additions; not necessarily needed for RHCSA).
+   1. Hardware analysis.
+   2. Kernel analysis.
+   3. Process for setting up a new Debian system.
 
 As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.
   
