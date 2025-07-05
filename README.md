@@ -73,13 +73,13 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    8. Use boolean settings to modify system SELinux settings.
    9. Diagnose and address routine SELinux policy violations.
 10. Manage Containers.
-   1. Find and retrieve container images from a remote registry
-   2. Inspect container images
-   3. Perform container management using commands such as podman and skopeo
-   4. Perform basic container management such as running, starting, stopping, and listing running containers
-   5. Run a service inside a container
-   6. Configure a container to start automatically as a systemd service
-   7. Attach persistent storage to a container
+   1. Find and retrieve container images from a remote registry.
+   2. Inspect container images.
+   3. Perform container management using commands such as podman and skopeo.
+   4. Perform basic container management such as running, starting, stopping, and listing running containers.
+   5. Run a service inside a container.
+   6. Configure a container to start automatically as a systemd service.
+   7. Attach persistent storage to a container.
 11. Additional Resources(my own additions; not necessarily needed for RHCSA).
    1. Hardware analysis.
    2. Kernel analysis.
