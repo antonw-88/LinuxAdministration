@@ -13,6 +13,7 @@ The structure of the repo is based on Red Hat's overview of the contents that th
   9. Hard and Soft links.
   10. File and Directory permissions.
   11. System documentation.
+
 2. Shell Scripting.
   1. Conditional Execution.
   2. Looping Constructs.
