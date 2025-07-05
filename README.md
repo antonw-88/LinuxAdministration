@@ -1,5 +1,5 @@
 This repo was initially used for storing various commands/processes for setting up a new system/various troubleshooting processes etc. I then reorganized it to function as a study FAQ for learning about Linux, when I needed to get back into the habit. It is based on the RHCSA certificate requirements. The guide is intended to be usable for someone who is new to Linux and in the process of learning how the Linux Distros function in general; the difference between RedHat, Rocky, Debian, Arch and Gentoo etc, are in the end relatively insignificant when compared to their similarities.  
-The structure of the repo is based on Red Hat's 2025 overview of the contents that the certificate validates that the holder has a good understanding regarding.[1] The various sections are listed below. 
+The structure of the repo is based on Red Hat's 2025 overview of the contents that the certificate validates that the holder has a good understanding regarding.[1] The various sections are listed below.  
 NOTE: WHILE THIS GUIDE BUILDS ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE DEVELOPMENT OF THIS GUIDE WAS ROCKY. ROCKY IS THE RECOMMENDED DISTRO FOR THIS GUIDE, BUT ANY DISTRO CAN BE USED.
 
 
