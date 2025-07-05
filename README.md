@@ -103,4 +103,4 @@ As with all Red Hat performance-based exams, configurations must persist after r
 3. https://rbong.github.io/rhcsa-open-guide/
 4. https://www.reddit.com/r/redhat/comments/mrgqfb/red_hat_certification_study_qa/
 5. Sander van Vugt — supplement his free videos with a 10‑day O’Reilly trial to access full courses and practice labs.
-6. https://annas-archive.org/search?q=RHCSA
+6. Red Hat Enterprise Linux 9.0 RH199 - RHCSA Rapid Track
