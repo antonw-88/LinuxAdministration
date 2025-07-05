@@ -2,6 +2,8 @@ This repo was initially used for storing various commands/processes for setting 
 The structure of the repo is based on Red Hat's 2025 overview of the contents that the certificate validates that the holder has a good understanding regarding.[1] The various sections are listed below.  
 NOTE: WHILE THIS GUIDE BUILDS ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE DEVELOPMENT OF THIS GUIDE WAS ROCKY. ROCKY IS THE RECOMMENDED DISTRO FOR THIS GUIDE, BUT ANY DISTRO CAN BE USED.
 
+The goal of this guide is not to comprehensively describe every single section of the RHCSA requirements. Rather, the goal is to provide potentially relevant personal insights related to each section. These insights can be placed in relation to the more comprehensive materials found in the references at the bottom of this readme. Such insights may include, for example: custom commands; how a tool functions; particularly relevant usecases; etc.
+
 
 1. Understand and use Essential Tools.
     1. Shell commands.  
