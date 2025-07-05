@@ -87,10 +87,9 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
 As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.
   
 **Study Materials:**
-[1] https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
-[2] https://github.com/victorbrca/rhcsa-study-guide
-[3] https://rbong.github.io/rhcsa-open-guide/
-[4] https://www.reddit.com/r/redhat/comments/mrgqfb/red_hat_certification_study_qa/
-[5] Sander van Vugt — supplement his free videos with a 10‑day O’Reilly trial to access full courses and practice labs.
-[6] https://annas-archive.org/search?q=RHCSA
-
+1. https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
+2. https://github.com/victorbrca/rhcsa-study-guide
+3. https://rbong.github.io/rhcsa-open-guide/
+4. https://www.reddit.com/r/redhat/comments/mrgqfb/red_hat_certification_study_qa/
+5. Sander van Vugt — supplement his free videos with a 10‑day O’Reilly trial to access full courses and practice labs.
+6. https://annas-archive.org/search?q=RHCSA
