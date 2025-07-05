@@ -15,11 +15,13 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    9. Hard and soft links.
    10. File and directory permissions.
    11. System documentation.
+   
 2. Shell Scripting.
    1. Conditional execution.
    2. Looping constructs.
    3. Script inputs.
-   4. Output control. 
+   4. Output control.
+   
 3. Operating Running Systems.
    1. Standard boot, reboot and shutdown.
    2. Boot systems into different targets.
@@ -30,7 +32,8 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    7. Log files and journals.
    8. System journal preservation.
    9. Network service analysis.
-   10. File-transfer between systems. 
+   10. File-transfer between systems.
+    
 4. Local Storage Configuration.
    1. MBR and GPT disk partitioning.
    2. Create and delete physical volumes.
@@ -38,6 +41,7 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    4. Create and delete logical volumes.
    5. Configure systems to mount file systems at boot by universally unique ID (UUID) or label.
    6. Add new partitions and logical volumes, and swap to a system non-destructively.
+   
 5. Create and Configure File Systems.
    1. Create, mount, unmount, and use vfat, ext4, and xfs file systems.
    2. Mount and unmount network file systems using NFS.
@@ -45,6 +49,7 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    4. Extend existing logical volumes.
    5. Create and configure set-GID directories for collaboration.
    6. Diagnose and correct file permission problems.
+   
 6. Deploy, Configure and Maintain Systems.
    1. Schedule tasks using at and cron.
    2. Start and stop services and configure services to start automatically at boot.
@@ -52,16 +57,19 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    4. Configure time service clients.
    5. Install and update software packages from Red Hat Network, a remote repository, or from the local file system.
    6. Modify the system bootloader.
+   
 7. Manage Basic Networking.
    1. Configure IPv4 and IPv6 addresses.
    2. Configure hostname resolution.
    3. Configure network services to start automatically at boot.
    4. Restrict network access using firewall-cmd/firewall.
+   
 8. Manage Users and Groups.
    1. Create, delete, and modify local user accounts.
    2. Change passwords and adjust password aging for local user accounts.
    3. Create, delete, and modify local groups and group memberships.
    4. Configure superuser access.
+   
 9. Manage Security.
    1. Configure firewall settings using firewall-cmd/firewalld.
    2. Manage default file permissions.
@@ -72,6 +80,7 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    7. Manage SELinux port labels.
    8. Use boolean settings to modify system SELinux settings.
    9. Diagnose and address routine SELinux policy violations.
+   
 10. Manage Containers.
    1. Find and retrieve container images from a remote registry.
    2. Inspect container images.
@@ -80,6 +89,11 @@ NOTE: WHILE THIS GUIDE FOCUSES ON THE RHCSA, THE DISTRO THAT WAS USED DURING THE
    5. Run a service inside a container.
    6. Configure a container to start automatically as a systemd service.
    7. Attach persistent storage to a container.
+   
+11. Additional Resources *(My own additions; not necessarily needed for RHCSA)*
+   1. Hardware analysis.
+   2. Kernel analysis.
+   3. Process for setting up a new Debian system.
 
 As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.
   
